@@ -1,3 +1,15 @@
+//location icon
+import LocationOnIcon from '@mui/icons-material/LocationOn';
+//search icon
+import SearchIcon from '@mui/icons-material/Search';
+//arrowdrop icon
+import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
+//shopping cart icon 
+import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+//menu icon
+import MenuIcon from '@mui/icons-material/Menu';
+//arrow forward icon
+import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 
 
 const Navbar = ()=> {
@@ -13,9 +25,9 @@ const Navbar = ()=> {
                 {/* Box2 */}
                 <div className="nav-address">
                     <p className="deliver-to" >deliver</p>
-                    <div className="add-icon">
-                        <p className="icon">icon</p>
-                        <p className="india"></p>
+                    <div className="loction-icon">
+                        <LocationOnIcon/>
+                        <p className="india">India</p>
                     </div>
                 </div>
                 {/* Box3 */}
@@ -25,13 +37,13 @@ const Navbar = ()=> {
                     </select>
                     <input className="search-input" type="text" placeholder="Search Product" ></input>
                     <div className="search-icon">
-                        <p>icon</p>
+                        <SearchIcon/>
                     </div>
                 </div>
                 {/* Box4 */}
                 <div className="nav-signin">
                     <p className="signin"><span>Hello sign in</span></p>
-                    <p className="account-list">Account & Lists</p>
+                    <p className="account-list">Account & Lists <ArrowDropDownIcon/></p>
                 </div>
                 {/* Box5 */}
                 <div className="nav-order">
@@ -40,6 +52,7 @@ const Navbar = ()=> {
                 </div>
                 {/* Box6 */}
                 <div className="nav-cart">
+                    <ShoppingCartIcon/>
                     <p className="cart">Cart</p>
                 </div>
             </div>
@@ -48,6 +61,7 @@ const Navbar = ()=> {
             <div className="left-panel">
                 {/* Box1 */}
                 <div className="left-all">
+                    <MenuIcon/>
                     <p className="all">All</p>
                 </div>
                 {/* box2 */}
@@ -65,6 +79,7 @@ const Navbar = ()=> {
                 <div className="right-opction">
                     <p className="festival">Great Indian Festival Finale days</p>
                     <p className="shop-now">SHOP NOW</p>
+                    <ArrowForwardIosIcon/>
                 </div>
             </div>
         </header>
