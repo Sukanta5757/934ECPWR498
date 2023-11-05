@@ -13,3 +13,20 @@
     align-items: center;
     justify-content: space-evenly;
 }
+
+/* box1 */
+.navbar .nav-logo{
+    height: 50px;
+    width: 100px;
+    border-radius: 5px;
+    border: 2px solid transparent;
+}
+.navbar .nav-logo:hover{
+    border: 2px solid rgb(221, 130, 130);
+}
+.navbar .nav-logo .image {
+    background-image: url('https://tse4.mm.bing.net/th?id=OIP.C90fOSjza-F3JBuPhXSimQHaEo&pid=Api&P=0&h=57');
+    border-radius: 3px;
+    height: 100%; 
+    width: 100%;
+}
