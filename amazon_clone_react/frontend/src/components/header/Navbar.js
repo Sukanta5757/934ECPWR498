@@ -1,3 +1,5 @@
+// import css file
+import '../header/Navbar.css';
 //location icon
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 //search icon
