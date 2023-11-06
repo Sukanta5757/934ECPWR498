@@ -34,7 +34,7 @@ const Navbar = ()=> {
                 </div>
                 {/* Box3 */}
                 <div className="nav-search-bar">
-                    <select>
+                    <select className='search-select'>
                         <option>All</option>
                     </select>
                     <input className="search-input" type="text" placeholder="Search Product" ></input>
