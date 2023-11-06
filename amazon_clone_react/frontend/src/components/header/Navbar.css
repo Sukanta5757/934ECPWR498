@@ -30,3 +30,33 @@
     height: 100%; 
     width: 100%;
 }
+
+/* box2 */
+.navbar .nav-address{
+    height: 50px;
+    margin-left: 2px;
+    border: 2px solid transparent;
+}
+
+.navbar .nav-address:hover{
+    border: 2px solid white;
+}
+
+.navbar .nav-address .deliver-to{
+    color: rgb(158, 140, 140);
+    font-size: 13px;
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-left: 27px;
+}
+
+.navbar .nav-address .loction-icon {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .nav-address .loction-icon .india{
+ font-size: 15px;
+ margin-left: 3px;
+ color: white;
+}

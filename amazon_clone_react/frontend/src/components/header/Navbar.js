@@ -26,7 +26,7 @@ const Navbar = ()=> {
                 </div>
                 {/* Box2 */}
                 <div className="nav-address">
-                    <p className="deliver-to" >deliver</p>
+                    <p className="deliver-to" >Deliver</p>
                     <div className="loction-icon">
                         <LocationOnIcon/>
                         <p className="india">India</p>
