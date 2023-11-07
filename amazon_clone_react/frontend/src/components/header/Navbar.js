@@ -54,7 +54,7 @@ const Navbar = ()=> {
                 </div>
                 {/* Box6 */}
                 <div className="nav-cart">
-                    <ShoppingCartIcon/>
+                    <ShoppingCartIcon id="carti"/>
                     <p className="cart">Cart</p>
                 </div>
             </div>
