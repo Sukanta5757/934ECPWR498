@@ -60,28 +60,35 @@ const Navbar = ()=> {
             </div>
             {/* Panel */}
             {/* Left Panel */}
-            <div className="left-panel">
-                {/* Box1 */}
-                <div className="left-all">
-                    <MenuIcon/>
-                    <p className="all">All</p>
+            <div className="panel">
+                <div className="left-panel">
+                    {/* Box1 */}
+                    <div className="left-all">
+                        <MenuIcon className='manuicion'/>
+                        <p className="all">All</p>
+                    </div>
+                    {/* box2 */}
+                    <div className="left-opection">
+                    <p>Amazon MiniTV</p>
+                    <p>Sell</p>
+                    <p>Best Sellers</p>
+                    <p>Today's Deals</p>
+                    <p>Mobiles</p>
+                    <p>Customer Service</p>
+                    <p>Electronics</p>
+                    <p>Prime <i class="fa-solid fa-caret-down"></i></p>
+                    <p>New Releases</p>
+                    </div>
                 </div>
-                {/* box2 */}
-                <div className="left-opection">
-                    <p className="mini-tv">Amazon MiniTV</p>
-                    <p className="sell">Sell</p>
-                    <p className="best-sellers">Best Sellers</p>
-                    <p className="today-deals">Today's Deals</p>
-                    <p className="mobiles">Mobiles</p>
-                </div>
-            </div>
-            {/* Right Panel */}
-            <div className="right-panel">
-                {/* Box3 */}
-                <div className="right-opction">
-                    <p className="festival">Great Indian Festival Finale days</p>
-                    <p className="shop-now">SHOP NOW</p>
-                    <ArrowForwardIosIcon/>
+                {/* Right Panel */}
+                <div className="right-panel">
+                    {/* Box3 */}
+                    <div className="right-opction">
+                        <p className="festival">Great Indian Festival Finale days</p>
+                        <p class="vertical">|</p>
+                        <p className="shop-now">SHOP NOW</p>
+                        <ArrowForwardIosIcon/>
+                    </div>
                 </div>
             </div>
         </header>
