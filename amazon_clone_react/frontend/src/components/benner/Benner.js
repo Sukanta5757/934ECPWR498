@@ -1,6 +1,6 @@
 import React, {useEffect, useState } from 'react';
 import '../benner/Benner.css';
-import data from '../benner/CarouseImagel';
+import data from './CarouseImagel';
 
 const Benner = () => {
     const [people] = useState(data);
