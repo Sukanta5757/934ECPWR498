@@ -219,6 +219,102 @@ const Homepage = ()=> {
                 <button class="card-product-btn">see more</button>
             </div>
         </div>
+
+        
+        {/* today's deals section */}
+        <section class="today_deals_container">
+
+             {/* today's heading */}
+            <div class="today_deals_heading">
+                <h1>Today's Deals</h1>
+                <p><a href="">See all deals</a></p>
+            </div>
+
+            {/* today's product */}
+            <div class="today_deals_product">
+               {/* buttons */}
+                <div class="today_deals_btn">
+                    <button class="today_btn" id="today_deal_btn_prev">
+                        &#10094;
+                    </button>
+                    <button class="today_btn" id="today_deal_btn_next">
+                        &#10095;
+                    </button>
+                </div>
+
+                {/* product list  */}
+                <div class="today_deals_product_list">
+                    <div class="today_deals_item">
+                        <img src="images/box1_image.jpg"/>
+                        <div class="discount">
+                            <a href="#">Up to 52% off</a>
+                            <a href="#">Deal of the day</a>
+                        </div>
+                        <p>adidas and Campus Footwear</p>
+                    </div>
+
+                    <div class="today_deals_item">
+                        <img src="images/box1_image.jpg"/>
+                        <div class="discount">
+                            <a href="#">Up to 52% off</a>
+                            <a href="#">Deal of the day</a>
+                        </div>
+                        <p>adidas and Campus Footwear</p>
+                    </div>
+
+                    <div class="today_deals_item">
+                        <img src="images/box1_image.jpg"/>
+                        <div class="discount">
+                            <a href="#">Up to 52% off</a>
+                            <a href="#">Deal of the day</a>
+                        </div>
+                        <p>adidas and Campus Footwear</p>
+                    </div>
+
+                    <div class="today_deals_item">
+                        <img src="images/box1_image.jpg"/>
+                        <div class="discount">
+                            <a href="#">Up to 52% off</a>
+                            <a href="#">Deal of the day</a>
+                        </div>
+                        <p>adidas and Campus Footwear</p>
+                    </div>
+
+                    <div class="today_deals_item">
+                        <img src="images/box1_image.jpg"/>
+                        <div class="discount">
+                            <a href="#">Up to 52% off</a>
+                            <a href="#">Deal of the day</a>
+                        </div>
+                        <p>adidas and Campus Footwear</p>
+                    </div>
+
+                    <div class="today_deals_item">
+                        <img src="images/box1_image.jpg"/>
+                        <div class="discount">
+                            <a href="#">Up to 52% off</a>
+                            <a href="#">Deal of the day</a>
+                        </div>
+                        <p>adidas and Campus Footwear</p>
+                    </div>
+
+                    <div class="today_deals_item">
+                        <img src="images/box1_image.jpg"/>
+                        <div class="discount">
+                            <a href="#">Up to 52% off</a>
+                            <a href="#">Deal of the day</a>
+                        </div>
+                        <p>adidas and Campus Footwear</p>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            
+        </section>
+        
     </main>
     )
 }
