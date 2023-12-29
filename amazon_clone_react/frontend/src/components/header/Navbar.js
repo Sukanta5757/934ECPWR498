@@ -19,43 +19,97 @@ const Navbar = ()=> {
 
         <header>
             {/* Navbar */}
-            <div className="navbar">
-                {/* Box1 */}
-                <div className="nav-logo">
-                    <div className="image"></div>
-                </div>
-                {/* Box2 */}
-                <div className="nav-address">
-                    <p className="deliver-to" >Deliver</p>
-                    <div className="loction-icon">
-                        <LocationOnIcon/>
-                        <p className="india">India</p>
+            <div class="navbar">
+                {/* left navbar  */}
+                <div class="left_navbar">
+                    {/* box1  */}
+                    <a href="/home" class="nav-logo">
+                        <img src="http://localhost:8000/images/amazon_logo.png" alt="amazon logo"></img>
+                    </a >
+                    {/* box2  */}
+                    <div class="nav-address">
+                        <div class="address_inner">
+                            <p class="deliver-to">Deliver to</p>
+                            <div class="add-icon">
+                                <LocationOnIcon id="locationicon" />
+                                <p class="india">India</p>
+                            </div>
+                        </div>
+                    </div>
+                    {/* box3  */}
+                    <div class="nav-search-bar">
+                        <select class="search-select">
+                            <option class="select-all">All</option>
+                        </select>
+                        <input class="search-input" type="text" name="" id="" placeholder="Search Product" ></input>
+                        <div class="search-icon">
+                            <SearchIcon id="searchicon"/>
+                        </div>
                     </div>
                 </div>
-                {/* Box3 */}
-                <div className="nav-search-bar">
-                    <select className='search-select'>
-                        <option>All</option>
-                    </select>
-                    <input className="search-input" type="text" placeholder="Search Product" ></input>
-                    <div className="search-icon">
-                        <SearchIcon/>
+
+                {/* right navbar */}
+                <div class="right_navbar">
+                    {/* box4  */}
+                    <div class='nav-signin'>
+                        <div class="signin_inner">
+                            <p class="signin"><span>Helo, Sign in</span></p>
+                            <p class="account-list">Account & List</p>
+
+                            {/*sign & list  box  */}
+                            <div class="sign_list_box">
+                                <div class="shape"></div>
+                                
+                                <div class="sign_account_bar">
+                                    <div class="signin_bar">
+                                        <a class="signin_btn" href="">
+                                            <button>Sign in</button>
+                                        </a>
+                                        <p>New customer?<a href=""> Start here.</a></p>
+                                    </div>
+
+                                    <div class="account_list_bar">
+                                        <ul class="list_bar">
+                                            <h1>Your Lists</h1>
+                                            <a href="">Create a Wish List</a>
+                                            <a href="">Wish from Any Website</a>
+                                            <a href="">Body Wishlist</a>
+                                            <a href="">Discover Your Style</a>
+                                            <a href="">Explore Showroom</a>
+                                            <a href="">Logout</a>
+                                        </ul>
+
+                                        <ul class="account_bar">
+                                            <h1>Your Account</h1>
+                                            <a href="">Your Account</a>
+                                            <a href="">Your Orders</a>
+                                            <a href="">Your Wish List</a>
+                                            <a href="">Your Rexommendations</a>
+                                            <a href="">Your Payment Methods</a>
+                                            <a href="">Your Prime Membership</a>
+                                            <a href="">Your Prime video</a>
+                                            <a href="">Your Subscribe & Save Items</a>
+                                            <a href="">Memberships & Subscriptions</a>
+                                            <a href="">Your Seller Account</a>
+                                            <a href="">Manage Your Content and Devices</a>
+                                            <a href="">Your Free Amazon Business Account</a>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                {/* Box4 */}
-                <div className="nav-signin">
-                    <p className="signin"><span>Hello sign in</span></p>
-                    <p className="account-list">Account & Lists <ArrowDropDownIcon/></p>
-                </div>
-                {/* Box5 */}
-                <div className="nav-order">
-                    <p className="return">Return</p>
-                    <p className="order">& Order</p>
-                </div>
-                {/* Box6 */}
-                <div className="nav-cart">
-                    <ShoppingCartIcon id="carti"/>
-                    <p className="cart">Cart</p>
+                    {/* box5  */}
+                    <a href="/OrderReturn" class='nav-order'>
+                        <div class="order_inner">
+                        <p class="returns"><span>Returns</span></p>
+                        <p class="orders">& Orders</p></div>
+                    </a>
+                    {/* box6  */}
+                    <a href="/Carts" class='nav-cart'>
+                        <ShoppingCartIcon id="carticon"/>
+                        <p class="cart">Cart</p>
+                    </a>
                 </div>
             </div>
             {/* Panel */}
