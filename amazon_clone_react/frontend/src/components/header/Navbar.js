@@ -4,14 +4,11 @@ import '../header/Navbar.css';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 //search icon
 import SearchIcon from '@mui/icons-material/Search';
-//arrowdrop icon
-import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
-//shopping cart icon 
-import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 //menu icon
 import MenuIcon from '@mui/icons-material/Menu';
-//arrow forward icon
-import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
+//shopping cart icon 
+import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+
 
 
 const Navbar = ()=> {
@@ -110,38 +107,10 @@ const Navbar = ()=> {
                         <ShoppingCartIcon id="carticon"/>
                         <p class="cart">Cart</p>
                     </a>
-                </div>
-            </div>
-            {/* Panel */}
-            {/* Left Panel */}
-            <div className="panel">
-                <div className="left-panel">
-                    {/* Box1 */}
-                    <div className="left-all">
-                        <MenuIcon className='manuicion'/>
-                        <p className="all">All</p>
-                    </div>
-                    {/* box2 */}
-                    <div className="left-opection">
-                    <p>Amazon MiniTV</p>
-                    <p>Sell</p>
-                    <p>Best Sellers</p>
-                    <p>Today's Deals</p>
-                    <p>Mobiles</p>
-                    <p>Customer Service</p>
-                    <p>Electronics</p>
-                    <p>Prime <i class="fa-solid fa-caret-down"></i></p>
-                    <p>New Releases</p>
-                    </div>
-                </div>
-                {/* Right Panel */}
-                <div className="right-panel">
-                    {/* Box3 */}
-                    <div className="right-opction">
-                        <p className="festival">Great Indian Festival Finale days</p>
-                        <p class="vertical">|</p>
-                        <p className="shop-now">SHOP NOW</p>
-                        <ArrowForwardIosIcon/>
+
+                    <div class="left-panel-all">
+                        <MenuIcon id="manu_icon" />
+                        {/* <p>All</p> */}
                     </div>
                 </div>
             </div>
