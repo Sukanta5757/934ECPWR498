@@ -154,12 +154,13 @@
 }
 
 .navbar .nav-signin span {
+    font-weight: bold;
     font-size: 15px;
 }
 
 .navbar .nav-signin .account-list{
     font-size: 20px;
-    font-weight: 600px;
+    font-weight: bold;
 }
 
 /* sign & list  box start */
@@ -298,11 +299,12 @@
 
 .navbar .nav-order span{
     font-size: 15px;
+    font-weight: bold;
 }
 
 .navbar .nav-order .orders {
     font-size: 20px;
-    font-weight: 600px;
+    font-weight: bold;
 }
 /* box5 end */
 
@@ -329,7 +331,7 @@
 .navbar .nav-cart .cart {
     margin-top: 20px;
     font-size: 20px;
-    font-weight: 600px;
+    font-weight: bold;
 }
 /* box6 end */
 /* right navbar end  */
@@ -373,14 +375,21 @@
 
     /* right navbar start  */
     .navbar .right_navbar {
+        box-shadow: 0px 0px 10px gray;
+        background-color: white;
         bottom: 0;
         position: fixed;
         width: 100%;
     }
     /* box4 */
     .navbar .nav-signin {
+        color: black;
         height: 50px;
         width: 110px;
+    }
+
+    .navbar .nav-signin:hover {
+        border: 1px solid black;
     }
 
     .navbar .nav-signin span {
@@ -443,8 +452,13 @@
 
     /* box5 */
     .navbar .nav-order {
+        color: black;
         height: 50px;
         width: 80px;
+    }
+
+    .navbar .nav-order:hover {
+        border: 1px solid black;
     }
 
     .navbar .nav-order span{
@@ -457,13 +471,18 @@
 
     /* box6 */
     .navbar .nav-cart {
+        color: black;
         height: 50px;
         width: 70px;
         margin-right: 10px;
     }
+
+    .navbar .nav-cart:hover {
+        border: 1px solid black;
+    }
     
     .navbar .nav-cart #carticon {
-        font-size: 25px;
+        font-size: 30px;
     }
 
     .navbar .nav-cart .cart {
