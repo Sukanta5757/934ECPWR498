@@ -1,4 +1,5 @@
 import '../footer/Footer.css';
+import PublicIcon from '@mui/icons-material/Public';
 
 const Footer = ()=>{
     return(
@@ -58,7 +59,7 @@ const Footer = ()=>{
     <div class="footer_panel3">
         <img src="http://localhost:8000/images/amazon_logo.png" alt=""></img>
         <div class="language_content">
-            <i class="fa-solid fa-globe"></i>
+            <PublicIcon />
             <h5>English</h5>
             <i id="down" class="fa-solid fa-caret-down"></i>
         </div> 

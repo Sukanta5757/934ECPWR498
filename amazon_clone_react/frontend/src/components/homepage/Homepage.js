@@ -1,7 +1,5 @@
-
-// import React from "react";
+import React from "react";
 import '../homepage/Homepage.css';
-import data from '../benner/CarouseImagel';
 import TodayDeal from './todayDeal';
 
 const Homepage = ()=> {
