@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border:border-box;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px -15px 30px 0px;
+}
+
+.amazon_logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container img{
+    
+    height: 100px;
+    width: 200px;
+}
+
+/* form content */
+.container form {
+    width: 350px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    border: 1px solid rgb(168, 145, 145);
+}
+ .container .inner_form {
+    margin: 20px;    
+}
+
+.container .form_input {
+    margin-top: 15px;
+
+}
+
+/* Name input */
+.container .form_input #user_name {
+    height: 25px;
+    width: 300px;
+    margin-top: 5px;
+    border: 1px solid rgb(113, 103, 103);
+    border-radius: 3px;
+}
+::placeholder {
+    padding: 10px;
+    color: gray;
+}
+
+/* Mobile input */
+.container .form_input select {
+    height: 30px;
+    width: 70px;
+    margin-top: 5px;
+    border:1px solid 1px solid rgb(113, 103, 103);
+    margin-right: 12px;
+    border-radius: 10px;
+}
+
+.container .form_input #user_mobile {
+    height: 25px;
+    margin-top: 5px;
+    width: 210px;
+}
+
+/* Email input */
+.container .form_input #user_email {
+    height: 25px;
+    margin-top: 5px;
+    width: 300px;
+}
+
+/* Password input */
+
+.container .form_input #user_password {
+    height: 25px;
+    margin-top: 5px;
+    width: 300px;
+}
+
+.container .form_input p {
+    font-size: 12px;
+    color: rgb(73, 67, 67);
+}
+
+.container .form_input p span{
+    font-size: 14px;
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(62, 159, 188);
+}
+
+/* Message */
+.container .form_message{
+   width: 300px;
+   margin-top: 30px;
+}
+
+.container .form_message{
+    font-size: 13px;
+    color: rgb(73, 67, 67);
+ }
+
+/* sumbit button */
+.container .form_sumbit_btn {
+    margin-top: 20px;
+    width: fit-content;
+    height: 60px;
+    box-shadow: -0px 1px 30px -20px ;
+}
+.container button{
+    background-color: rgb(241, 199, 13);
+    height: 30px;
+    width: 305px;
+    border-radius: 5px;
+    border:none;
+    font-size: 15px;
+ }
+
+ .container button:hover{
+    background-color:  rgb(226, 188, 18);
+ }
+
+/* links */
+.container .form_links {
+ margin-top:30px;
+}
+
+.container .form_links p{
+    font-size: 13px;
+    margin-top:5px;
+}
+
+.container .form_links p a{
+    color: rgb(73, 83, 228);
+    margin-left: 5px;
+}
+
+/* policy */
+.container .form_policy {
+    margin-top: 30px;
+    width: 300px;
+}
+
+.container .form_policy p{
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+.container .form_policy p a{
+    color: rgb(73, 83, 228);
+}
