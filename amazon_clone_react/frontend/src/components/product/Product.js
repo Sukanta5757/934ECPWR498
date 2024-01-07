@@ -1,8 +1,8 @@
 import React from "react";
-import '../homepage/Homepage.css';
+import '../product/Product.css';
 import TodayDeal from './todayDeal';
 
-const Homepage = ()=> {
+const Product = ()=> {
 
     return (
         // main section start         
@@ -232,4 +232,4 @@ const Homepage = ()=> {
     )
 }
 
-export default Homepage ;
+export default Product ;

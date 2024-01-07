@@ -1,18 +1,20 @@
 import Navbar from './components/header/Navbar';
 import Benner from './components/benner/Benner';
-import Homepage from './components/homepage/Homepage';
-import Panelbar from './components/panel/panelbar';
+import Product from './components/product/Product';
+// import Panelbar from './components/panel/panelbar';
 import Footer from './components/footer/Footer';
 import Signin from './components/signin/Signin';
 import Signup from './components/signup/Signup';
+import Panel from './components/panel/Panel';
 
 function App() {
   return (
     <>
       <Navbar/>
-      <Panelbar/>
+      {/* <Panelbar/> */}
+      <Panel/>
       <Benner/>
-      <Homepage/>
+      <Product/>
       <Signin />
       <Signup />
       <Footer/>

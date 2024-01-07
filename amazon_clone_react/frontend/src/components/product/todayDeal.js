@@ -1,5 +1,5 @@
  
-import '../homepage/TodayDeal.css';
+import '../product/TodayDeal.css';
 
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
