@@ -103,7 +103,7 @@ const Navbar = ()=> {
                         <p class="orders">& Orders</p></div>
                     </a>
                     {/* box6  */}
-                    <a href="/Carts" class='nav-cart'>
+                    <a href="/shoppingcartpage" class='nav-cart'>
                         <ShoppingCartIcon id="carticon"/>
                         <p class="cart">Cart</p>
                     </a>
