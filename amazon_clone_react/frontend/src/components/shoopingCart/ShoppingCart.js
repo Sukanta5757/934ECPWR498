@@ -3,6 +3,7 @@ import '../shoopingCart/ShoppingCart.css'
 function ShoppingCart() {
   return (
     <div className='shopping_cart'>
+      {/* cart_lift */}
       <div className='cart_lift'>
         <div className=''>
           <h3>Hello Maa Binjhagiri</h3>
@@ -19,6 +20,8 @@ function ShoppingCart() {
           </div>
         </div>
       </div>
+
+      {/* cart right */}
       <div className='cart_right'>
         <div className='subtotal'>
           <p>Subtotal (2 items): <storng>₹20,000</storng></p>

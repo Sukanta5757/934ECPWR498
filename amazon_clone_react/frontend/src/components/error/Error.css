@@ -1,0 +1,28 @@
+.error{
+    padding: 60px 0;
+    text-align: center;
+}
+
+.error h1 {
+    font-size: 150px;
+}
+
+.error h2 {
+    font-size: 50px;
+}
+
+.error p {
+    margin: 20px 0;
+}
+
+.error button {
+    background-color: rgb(232, 227, 227);
+    border: 1px solid;
+    padding: 5px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.error button:hover {
+    background-color: #f0c14b;
+}
