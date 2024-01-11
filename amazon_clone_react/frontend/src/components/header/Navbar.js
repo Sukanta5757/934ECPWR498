@@ -8,6 +8,7 @@ import SearchIcon from '@mui/icons-material/Search';
 import MenuIcon from '@mui/icons-material/Menu';
 //shopping cart icon 
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import { Link } from 'react-router-dom';
 
 
 
@@ -20,9 +21,11 @@ const Navbar = ()=> {
                 {/* left navbar  */}
                 <div class="left_navbar">
                     {/* box1  */}
-                    <a href="/home" class="nav-logo">
+                    <Link to="/home">
+                    <div className="nav-logo">
                         <img src="http://localhost:8000/images/amazon_logo.png" alt="amazon logo"></img>
-                    </a >
+                    </div >
+                    </Link>
                     {/* box2  */}
                     <div class="nav-address">
                         <div class="address_inner">
@@ -97,16 +100,20 @@ const Navbar = ()=> {
                         </div>
                     </div>
                     {/* box5  */}
-                    <a href="/OrderReturn" class='nav-order'>
+                    <Link to="/OrderReturn">
+                    <div class='nav-order'>
                         <div class="order_inner">
                         <p class="returns"><span>Returns</span></p>
                         <p class="orders">& Orders</p></div>
-                    </a>
+                    </div>
+                    </Link>
                     {/* box6  */}
-                    <a href="/shoppingcartpage" class='nav-cart'>
+                    <Link to="/shoppingcartpage">
+                    <div class='nav-cart'>
                         <ShoppingCartIcon id="carticon"/>
                         <p class="cart">Cart</p>
-                    </a>
+                    </div>
+                    </Link>
 
                     <div class="left-panel-all">
                         <MenuIcon id="manu_icon" />
