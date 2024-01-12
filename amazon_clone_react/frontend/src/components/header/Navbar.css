@@ -153,6 +153,11 @@
     border: 1px solid white;
 }
 
+.sign_list{
+    text-decoration: underline black;
+    color: white;
+}
+
 .navbar .nav-signin span {
     font-weight: bold;
     font-size: 15px;
@@ -289,7 +294,7 @@
     border: 2px solid transparent;
     height: 50px;
     width: 100px;
-    text-decoration: none;
+    text-decoration: underline black;
     color: white;
 }
 
@@ -316,7 +321,7 @@
     border: 2px solid transparent;
     height: 50px;
     width: 100px;
-    text-decoration: none;
+    text-decoration: underline black;
     color: white;
 }
 
@@ -402,11 +407,14 @@
     }
     /* box4 */
     .navbar .nav-signin {
-        color: black;
         height: 50px;
         width: 110px;
     }
 
+    .sign_list{
+        text-decoration: underline white;
+        color: black;
+    }
     .navbar .nav-signin:hover {
         border: 1px solid black;
     }
@@ -471,6 +479,7 @@
 
     /* box5 */
     .navbar .nav-order {
+        text-decoration: underline white;
         color: black;
         height: 50px;
         width: 80px;
@@ -490,6 +499,7 @@
 
     /* box6 */
     .navbar .nav-cart {
+        text-decoration: underline white;
         color: black;
         height: 50px;
         width: 70px;

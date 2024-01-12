@@ -53,9 +53,12 @@ const Navbar = ()=> {
                     {/* box4  */}
                     <div class='nav-signin'>
                         <div class="signin_inner">
-                            <p class="signin"><span>Helo, Sign in</span></p>
-                            <p class="account-list">Account & List</p>
-
+                            <Link to='/Accountpage'>
+                            <div className='sign_list'>
+                                <p class="signin"><span>Helo, Sign in</span></p>
+                                <p class="account-list">Account & List</p>
+                            </div>
+                            </Link>
                             {/*sign & list  box  */}
                             <div class="sign_list_box">
                                 <div class="shape"></div>

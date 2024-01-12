@@ -8,6 +8,7 @@ import Errorpage from './pages/Errorpage';
 import Navbar from './components/header/Navbar';
 import Footer from './components/footer/Footer';
 import OrderReturnpage from './pages/OrderReturnpage';
+import Accountpage from './pages/Accountpage';
 
 
 function Router() {
@@ -21,6 +22,7 @@ function Router() {
         <Route path="/Signpage" element={<Signpage/>} />
         <Route path="/shoppingcartpage" element={<ShoppingCartPage/>} />
         <Route path="/OrderReturnpage" element={<OrderReturnpage/>} />
+        <Route path='/Accountpage' element={<Accountpage/>} />
         <Route path="*" element={<Errorpage/>} />
       </Routes>
       <Footer/>
