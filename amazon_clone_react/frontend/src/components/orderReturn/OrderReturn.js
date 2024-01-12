@@ -14,15 +14,14 @@ function OrderReturn() {
                 <span>Cancelled Orders</span>
             </h2>
 
-            <div className='cart_product'>
+            <div className='orderReturn_product'>
                 <img src='http://localhost:8000/images/cardmob1.jpg' className='cartProduct_img'></img>
-                <div className='cartProduct_info'>
-                <p className='cartProduct_title'>Product Name</p>
-                <p className='cartProduct_price'>
-                    <strong>₹10,000</strong>
-                </p>
-                <button>Buy it again
-</button>
+                <div className='orderReturn_info'>
+                    <p className='orderReturn_title'>Product Name</p>
+                    <p className='orderReturn_price'>
+                        <strong>₹10,000</strong>
+                    </p>
+                    <button>Buy it again</button>
                 </div>
             </div>
         </div>
