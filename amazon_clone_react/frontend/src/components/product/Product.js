@@ -224,7 +224,7 @@ const Product = ()=> {
             {/* card product section end */}
     
             {/* today's deals section start */}
-            <TodayDeal/>
+            {/* <TodayDeal/> */}
             {/* today's deals section end */}
         </main>
         // main section end 

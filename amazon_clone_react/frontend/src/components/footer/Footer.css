@@ -31,16 +31,16 @@ footer {
     justify-content: space-evenly;
 }
 
-.footer_panel2 ul {
+.footer_panel2 .unordered_list {
     margin-top: 20px;
 }
 
-.footer_panel2 ul p {
+.footer_panel2 .unordered_list p {
     font-size: 20px;
     font-weight: bold;
 }
 
-.footer_panel2 ul a {
+.footer_panel2 .unordered_list a {
     display: block;
     font-size: 14px;
     margin-top: 10px;
@@ -124,16 +124,16 @@ footer {
     height: 150px;
 }
 
-.footer_panel2 ul {
+.footer_panel2 .unordered_list {
     margin-top: 10px;
     margin-left: -50px;
 }
 
-.footer_panel2 ul p {
+.footer_panel2 .unordered_list p {
     font-size: 10px;
 }
 
-.footer_panel2 ul a {
+.footer_panel2 .unordered_list a {
     font-size: 8px;
     margin-top: 6px;
 }
@@ -185,16 +185,16 @@ footer {
         height: 200px;
     }
     
-    .footer_panel2 ul {
+    .footer_panel2 .unordered_list {
         margin-top: 10px;
         margin-left: -50px;
     }
     
-    .footer_panel2 ul p {
+    .footer_panel2 .unordered_list p {
         font-size: 16px;
     }
     
-    .footer_panel2 ul a {
+    .footer_panel2 .unordered_list a {
         font-size: 12px;
         margin-top: 6px;
     }
@@ -246,12 +246,12 @@ footer {
         height: 250px;
     }
     
-    .footer_panel2 ul {
+    .footer_panel2 .unordered_list {
         margin-top: 15px;
         margin-left: -50px;
     }
     
-    .footer_panel2 ul a {
+    .footer_panel2 .unordered_list a {
         font-size: 14px;
         margin-top: 8px;
     }

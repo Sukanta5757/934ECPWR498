@@ -12,7 +12,7 @@ const Footer = ()=>{
 
      {/* footer panel 2 start */}
     <div class="footer_panel2">
-        <ul>
+        <div class='unordered_list'>
             <p>Get to Know Us</p>
             <a>Careers</a>
             <a>Blog</a>
@@ -20,9 +20,9 @@ const Footer = ()=>{
             <a>Investor Relations</a>
             <a>Amazon Devices</a>
             <a>Amazon Science</a>
-        </ul>
+        </div>
 
-        <ul>
+        <div class='unordered_list'>
             <p>Make Money with Us</p>
             <a>Sell products on Amazon</a>
             <a>Sell on Amazon Business</a>
@@ -31,17 +31,17 @@ const Footer = ()=>{
             <a>Advertise Your Products</a>
             <a>Self-Publish with Us</a>
             <a>›See More Make Money with Us</a>
-        </ul>
+        </div>
 
-        <ul>
+        <div class='unordered_list'>
             <p>Amazon Payment Products</p>
             <a>Amazon Business Card</a>
             <a>Shop with Points</a>
             <a>Reload Your Balance</a>
             <a>Amazon Currency Converter</a>
-        </ul>
+        </div>
 
-        <ul>
+        <div class='unordered_list'>
             <p>Let Us Help You</p>
             <a>Amazon and COVID-19</a>
             <a>Your Account</a>
@@ -51,7 +51,7 @@ const Footer = ()=>{
             <a>Manage Your Conent and Devices</a>
             <a>Amazon Assistant</a>
             <a>Help</a>
-        </ul>
+        </div>
     </div>
      {/* footer panel 2 start end */}
 

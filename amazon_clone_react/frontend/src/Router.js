@@ -9,7 +9,7 @@ import Navbar from './components/header/Navbar';
 import Footer from './components/footer/Footer';
 import OrderReturnpage from './pages/OrderReturnpage';
 import Accountpage from './pages/Accountpage';
-
+import SigleProductpage from './pages/SigleProductpage';
 
 function Router() {
   return (
@@ -23,6 +23,7 @@ function Router() {
         <Route path="/shoppingcartpage" element={<ShoppingCartPage/>} />
         <Route path="/OrderReturnpage" element={<OrderReturnpage/>} />
         <Route path='/Accountpage' element={<Accountpage/>} />
+        <Route path='/SigleProductpage' element={<SigleProductpage/>} />
         <Route path="*" element={<Errorpage/>} />
       </Routes>
       <Footer/>

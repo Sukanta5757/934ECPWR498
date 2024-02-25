@@ -72,7 +72,7 @@ const Navbar = ()=> {
                                     </div>
 
                                     <div class="account_list_bar">
-                                        <ul class="list_bar">
+                                        <div class="list_bar">
                                             <h1>Your Lists</h1>
                                             <a href="">Create a Wish List</a>
                                             <a href="">Wish from Any Website</a>
@@ -80,9 +80,9 @@ const Navbar = ()=> {
                                             <a href="">Discover Your Style</a>
                                             <a href="">Explore Showroom</a>
                                             <a href="">Logout</a>
-                                        </ul>
+                                        </div>
 
-                                        <ul class="account_bar">
+                                        <div class="account_bar">
                                             <h1>Your Account</h1>
                                             <a href="">Your Account</a>
                                             <a href="">Your Orders</a>
@@ -96,7 +96,7 @@ const Navbar = ()=> {
                                             <a href="">Your Seller Account</a>
                                             <a href="">Manage Your Content and Devices</a>
                                             <a href="">Your Free Amazon Business Account</a>
-                                        </ul>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
